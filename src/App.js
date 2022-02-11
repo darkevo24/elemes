@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import elemes from "./elemes.png";
@@ -22,11 +23,14 @@ import mail from "./mail.png";
 import phone from "./phone.png";
 
 function App() {
+  function navbar(){
+    document.getElementById("navbarNav").classList.toggle("collapse");
+  }
   return (
     <div className="App">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a id="elemes" class="navbar-brand" href="#"><img src = {elemes} ></img></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button onClick={navbar} class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
@@ -105,16 +109,16 @@ function App() {
     <h1 id="bot-text">Receipt</h1>
   </div>
   <div id="atas">
-    <img src = {paperoni}></img>
-    <img src = {meat}></img>
-    <img src = {doner}></img>
-    <img src = {roll}></img>
+    <img id="atas1" src = {paperoni}></img>
+    <img id="atas1" src = {meat}></img>
+    <img id="atas1" src = {doner}></img>
+    <img id="atas1" src = {roll}></img>
   </div>
   <div id="atas">
-    <img src = {cake}></img>
-    <img src = {milk}></img>
-    <img src = {unicorn}></img>
-    <img src = {kathi}></img>
+    <img id="atas1" src = {cake}></img>
+    <img id="atas1" src = {milk}></img>
+    <img id="atas1" src = {unicorn}></img>
+    <img id="atas1" src = {kathi}></img>
   </div>
   <div id="bottom1">
   <div id="text-bottom">
