@@ -172,6 +172,13 @@ line-height: 50px;
   margin-left : 100px;
   display : flex;
 }
+
+#atas2 {
+  height : 300px;
+  width : 90%;
+  margin-left : 100px;
+  display : flex;
+}
 #text-bottom {
   text-align : center;
   background : #8BAC3E;
@@ -273,11 +280,17 @@ nav {
     flex-direction: column;
     width: 250px;
   }
+
+  #atas2 {
+    flex-direction: column;
+    width: 250px;
+    margin-top: 750px;
+  }
   #text-bottom {
     margin-top: 750px;
   }
   #final {
-    margin-top: 750px;
+    margin-top: 1550px;
   }
   #geser{
     margin-top: 100px;

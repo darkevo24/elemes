@@ -114,7 +114,7 @@ function App() {
     <img id="atas1" src = {doner}></img>
     <img id="atas1" src = {roll}></img>
   </div>
-  <div id="atas">
+  <div id="atas2">
     <img id="atas1" src = {cake}></img>
     <img id="atas1" src = {milk}></img>
     <img id="atas1" src = {unicorn}></img>
