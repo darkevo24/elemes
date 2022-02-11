@@ -300,4 +300,17 @@ nav {
     flex-direction: column;
     height : 1600px;
   }
+  @media (max-width : 450px){
+    #image {
+      width :150px;
+      height : 150px;
+      margin-top : 50px;
+    }
+    #geser {
+      display : none;
+    }
+    #bottom {
+      margin-top: 720px;
+    }
+  }
 }
